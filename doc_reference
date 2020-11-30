@@ -1,0 +1,17 @@
+*steps to craete standalone app with gui and db:
+
+1.create a Frontend
+2.create a Backend
+3.connect frontend with backend by attaching functions(backend) to the buttons(frontend)
+4.install pyinstaller
+	4.1 use link https://pypi.org/project/wheel/#files
+	4.2 download and save file "wheel-0.34.2-py2.py3-none-any.whl"
+	4.3 then #pip install wheel-0.34.2-py2.py3-none-any.whl
+		or #pip install wheel
+	4.4 #pip install pyinstaller
+	4.4 #pyinstaller --onefile --windowed frontend.py
+		#pyinstaller frontend.py
+	4.5 check F:\Practice\app_library\dist\frontend.exe
+	4.6 open exe or application file it will also create lite.db there.
+	4.7 u can also copy ur db file in this dist folder for ur existing data in db.
+
